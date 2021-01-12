@@ -1,9 +1,14 @@
 
 public class Main {
+	
+	/* +---------------------------------------------
+	 * | @author Isac Canedo
+	 * +---------------------------------------------
+	 */
 
 	/*
 	 * Which is the most reliable expression for testing whether the values of two string variables are the same?
-	 * Qual È a express„o mais confi·vel para testar se os valores de duas vari·veis de string s„o iguais?
+	 * Qual √© a express√£o mais confi√°vel para testar se os valores de duas vari√°veis de string s√£o iguais?
 	 * 
 	 * 1 - nome.matches(nome1) ==> correct
 	 * 2 - nome = nome1
@@ -18,9 +23,9 @@ public class Main {
 	public static void main(String[] args) {
 		
 		System.out.println(nome.matches(nome1)); // sim
-		System.out.println(nome = nome1); // n„o
-		System.out.println(nome == nome1); // n„o
-		System.out.println(nome.equals(nome1)); // n„o
+		System.out.println(nome = nome1); // n√£o
+		System.out.println(nome == nome1); // n√£o
+		System.out.println(nome.equals(nome1)); // n√£o
 
 		
 		
